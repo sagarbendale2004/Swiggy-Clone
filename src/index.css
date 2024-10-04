@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ProximaNova, arial, "Helvetica Neue", sans-serif"
+}
+
+.black-overlay {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.title {
+  font-family: "Basis Grotesque Pro", Arial, sans-serif;
+}
+
+.image-overlay {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(0,0,0,1));
+}
+
+.addTitle {
+  font-family:
+"Basis Grotesque Pro", Arial, sans-serif;
+}
+
+.img-overlay {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 60%);
+}
+
